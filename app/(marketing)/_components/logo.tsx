@@ -22,7 +22,7 @@ const Logo = () => {
         alt="logo"
         width={40}
         height={40}
-        className="light:hidden"
+        className=" dark:block hidden "
       />
       <p className={cn(font.className, "font-semibold")}>justNote</p>
     </div>
